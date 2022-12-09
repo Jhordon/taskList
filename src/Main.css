@@ -1,0 +1,128 @@
+/* default colors */
+
+:root {
+  --main: #FAF8F0;
+  --secondary: #043353;
+  --border: #D3DDE6; 
+}
+
+.card {
+  font-family: sans-serif;
+  background-color: var(--main);
+  color: var(--secondary);
+  border: 10px solid var(--border);
+  border-radius: 25px;
+  width: 500px;
+  height: auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: var(--secondary);
+  border-radius: 10px;
+}
+
+.input {
+  background-color: var(--main);
+  border: 5px solid var(--border);
+  border-radius: 25px;
+}
+
+.content {
+  text-align: left;
+}
+
+.taskItem {
+  text-align: center;
+  justify-content: center;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.button {
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+  border: 5px solid var(--border);
+  border-radius: 25px;
+  color: var(--secondary);
+  background-color: var(--main);
+  font-size: large;
+  cursor: pointer;
+}
+
+.menu {
+  text-align: center;
+}
+
+.theme1 {
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+  border: 5px solid #97E5EF;
+  border-radius: 25px;
+  color: #EFA8E4;
+  background-color: #F7F7F7;
+  font-size: large;
+  transition-duration: 0.4s;
+}
+
+.theme1:hover {
+  background-color: #97E5EF;
+  cursor: pointer;
+}
+
+.theme2 {
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+  border: 5px solid #D3DDE6;
+  border-radius: 25px;
+  color: #043353;
+  background-color: #FAF8F0;
+  font-size: large;
+  transition-duration: 0.4s;
+}
+
+.theme2:hover {
+  background-color: #D3DDE6;
+  cursor: pointer;
+}
+
+.theme3 {
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+  border: 5px solid #C4B59F;
+  border-radius: 25px;
+  color: #9D513D;
+  background-color: #F3EFE3;
+  font-size: large;
+  transition-duration: 0.4s;
+}
+
+.theme3:hover {
+  background-color: #C4B59F;
+  cursor: pointer;
+}
+
+.theme4 {
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+  border: 5px solid #B21919;
+  border-radius: 25px;
+  color: #B21919;
+  background-color: #F7AF25;
+  font-size: large;
+  transition-duration: 0.4s;
+}
+
+.theme4:hover {
+  background-color: #B21919;
+  border-color: #F7AF25;
+  color: #F7AF25;
+  cursor: pointer;
+}
